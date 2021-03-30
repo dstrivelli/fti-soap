@@ -3,6 +3,12 @@ kind: Component
 metadata:
   name: "fti-soap"
   description: "The FTI SOAP service serves as an adapter for applications that cannot make RESTful API calls to the FTI File Repo service. "
+  tags:
+    - fti 
+    - soap 
+    - adapter 
+    - enclave 
+    - federal tax information
   annotations:
     github.com/project-slug: dstrivelli/fti-soap
     backstage.io/techdocs-ref: url:https://github.com/dstrivelli/fti-soap
