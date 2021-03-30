@@ -18,3 +18,5 @@ spec:
   owner: "fti"
   providesApis:
     - fti-soap
+  consumesApis:
+    - fti-file-repo
