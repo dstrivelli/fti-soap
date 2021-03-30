@@ -8,7 +8,7 @@ metadata:
     - soap 
     - adapter 
     - enclave 
-    - federal tax information
+    - "federal-tax-information"
   annotations:
     github.com/project-slug: dstrivelli/fti-soap
     backstage.io/techdocs-ref: url:https://github.com/dstrivelli/fti-soap
