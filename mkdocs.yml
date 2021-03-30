@@ -1,0 +1,8 @@
+site_name: "fti-soap"
+site_description: "The FTI SOAP service serves as an adapter for applications that cannot make RESTful API calls to the FTI File Repo service. "
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core

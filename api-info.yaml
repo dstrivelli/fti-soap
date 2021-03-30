@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fti-soap-api
+  description: "The FTI SOAP service serves as an adapter for applications that cannot make RESTful API calls to the FTI File Repo service. "
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "fti"
+  definition:
+    $text: https://github.com/dstrivelli/fti-soap/blob/master/openapi.yaml
